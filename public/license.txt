@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cube
+* source:	https://sketchfab.com/3d-models/cube-83ec4892aa15470f978388d3751de972
+* author:	pablo_pickolo (https://sketchfab.com/pablo_pickolo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cube" (https://sketchfab.com/3d-models/cube-83ec4892aa15470f978388d3751de972) by pablo_pickolo (https://sketchfab.com/pablo_pickolo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

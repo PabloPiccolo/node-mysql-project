@@ -27,3 +27,42 @@ nav li a:hover{
     color: yellow;
     text-decoration: none;
 }
+
+/* login style */
+/* *{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+h1{ 
+    background-color: blue;
+} */
+
+button{
+    margin: 20px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    background-color: rgb(222, 226, 239);
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}

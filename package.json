@@ -4,9 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+     "start": "nodemon app.js"
+   
   },
-  "web":"app.js",
+  "web": "app.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,6 +20,10 @@
     "hbs": "^4.2.0",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
   }
 }

@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 
 dotenv.config({path: './.env'});
 
+
 const app = express();
 
 const db = mysql.createConnection({
@@ -17,7 +18,10 @@ const db = mysql.createConnection({
 
 const publicDirectory = path.join(__dirname,'./public');
 app.use(express.static(publicDirectory));
-// console.log(__dirname);
+
+// const publicDirectory2 = path.join(__dirname,'./assets');
+// app.use(express.static(publicDirectory2));
+ console.log(__dirname);
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
@@ -41,6 +45,7 @@ db.connect( (error)=>{
 //Define Routes
 app.use('/',require('./routes/pages'));
 app.use('/auth',require('./routes/auth'));
+app.use('/login',require('./routes/login'));
 
 const port = process.env.PORT || 5000;
 
